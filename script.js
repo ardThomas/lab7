@@ -5,7 +5,7 @@ function init(){
 
   function myFunction(){
     let userText = document.getElementById("entryinput").value;
-    alert(userText);
+    alert("Thomas Ard: " + userText);
     document.getElementById("textoutput").innerHTML = userText;
   }
 
@@ -13,4 +13,5 @@ function init(){
 }
 
 window.addEventListener('load', init);
+
 
