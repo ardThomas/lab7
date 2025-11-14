@@ -10,5 +10,7 @@ function init(){
   }
 
   button.addEventListener("click", myFunction);
+}
 
 window.addEventListener('load', init);
+
